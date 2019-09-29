@@ -26,7 +26,7 @@ for col in clmns:
     decomp = seasonal_decompose(r, model='additive', freq=3, extrapolate_trend=1)
     cm_[[col]] = decomp.trend
 
-cm.to_csv(r'trend.csv')
+cm_.to_csv(r'trend.csv')
 
 
                         
